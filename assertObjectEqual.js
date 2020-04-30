@@ -43,8 +43,13 @@ const eqArrays = function(array1, array2) {
 };
 
 const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-assertObjectsEqual(ab, ba); // => true
+// const ba = { b: "2", a: "1" };
+// assertObjectsEqual(ab, ba); // => true
 
 // const abc = { a: "1", b: "2", c: "3" };
-// eqObjects(ab, abc); // => false
+// assertObjectsEqual(ab, abc); // => false
+
+const def = { a: "1", b: "2", c: [1, 2, 3,]};
+const ghi = { a: "1", b: "2", c: [1, 2, 3,]};
+// const ba = { b: "2", a: "1" };
+assertObjectsEqual(def, ghi); // => true
