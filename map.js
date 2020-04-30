@@ -32,6 +32,7 @@ const map = function(array, callback) {
 
 const results1 = map(words, word => word[0]);
 const results2 = map(words2, word => word[0]);
+
 const expectedOutcome = [ 'g', 'c', 't', 'm', 't' ];
 const expectedOutcome2 = [ 'i', 's', 't', 't', 'd' ];
 
