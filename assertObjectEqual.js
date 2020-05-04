@@ -53,3 +53,5 @@ const def = { a: "1", b: "2", c: [1, 2, 3,]};
 const ghi = { a: "1", b: "2", c: [1, 2, 3,]};
 // const ba = { b: "2", a: "1" };
 assertObjectsEqual(def, ghi); // => true
+
+module.exports = assertObjectsEqual;

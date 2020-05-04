@@ -38,3 +38,5 @@ const expectedOutcome2 = [ 'i', 's', 't', 't', 'd' ];
 
 assertArraysEqual(results1, expectedOutcome);
 assertArraysEqual(results2, expectedOutcome2);
+
+module.exports = map;

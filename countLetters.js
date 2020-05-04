@@ -17,4 +17,4 @@ const countLetters = function(string) {
 
 console.log(countLetters('lighthouse in the house'));
 
-
+module.exports = countLetters;
